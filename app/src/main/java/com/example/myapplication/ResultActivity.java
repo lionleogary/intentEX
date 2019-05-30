@@ -15,7 +15,7 @@ public class ResultActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout2);
+        setContentView(R.layout.layout);
         tvResult=(TextView)findViewById(R.id.tvResult);
         showResults();
 
