@@ -62,6 +62,9 @@ public class ResultActivity extends AppCompatActivity{
         builder.setMessage(message);
         builder.setTitle(tittle);
         builder.setIcon(pic);
+        builder.setPositiveButton("OK",null);
+        builder.setNegativeButton("Cancel",null);
+        builder.setNeutralButton("Nothing",null);
         builder.show();
 
 
